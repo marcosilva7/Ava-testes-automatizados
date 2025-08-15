@@ -1,0 +1,42 @@
+# Node
+node_modules/
+
+# Ignorar arquivos sensíveis
+cypress/fixtures/acessoAmbiente.json
+
+# Cypress artifacts
+cypress/videos/*
+cypress/screenshots/*
+cypress/downloads/*
+
+# dotenv
+.env
+
+# Test coverage
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Windows Terminal / Powershell history
+*.ps1history
+
+# Lockfiles (if you prefer one lockfile per project manager)
+package-lock.json
+
+# Misc
+dist/
+build/
+
+# Ignore fixture secrets (if any)
+cypress/fixtures/*.secret.json
